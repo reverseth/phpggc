@@ -11,7 +11,6 @@ class FD3 extends \PHPGGC\GadgetChain\FileDelete
 
     public function generate(array $parameters)
     {
-
         $obj = new \CodeIgniter\Autoloader\FileLocatorCached($parameters['remote_path']);
         $obj->cacheHandler = new \CodeIgniter\Cache\FactoriesCache\FileVarExportHandler();
         return $obj;

@@ -5,8 +5,6 @@ namespace CodeIgniter\Cache\FactoriesCache
     class FileVarExportHandler 
     {
         public $path = "";
-
-        //public function __construct() {}
     }
 }
 
